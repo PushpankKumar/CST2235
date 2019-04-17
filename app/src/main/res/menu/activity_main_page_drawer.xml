@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/arr"
+            android:icon="@mipmap/arr"
+            android:title="@string/arr" />
+        <item
+            android:id="@+id/dep"
+            android:icon="@mipmap/dep"
+            android:title="@string/dep" />
+        <item
+            android:id="@+id/sav"
+            android:icon="@mipmap/sav"
+            android:title="Saved" />
+
+    </group>
+
+
+</menu>
